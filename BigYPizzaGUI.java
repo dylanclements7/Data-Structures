@@ -47,8 +47,6 @@ public class Main {
                     if (toppingsCount == 3) {
                         cost = 1.25;
                     }
-                } else {
-                    cost = 1.25 * 0.5;
                 }
                 double totalPrice = basePrice + cost;
                 String size = "";
